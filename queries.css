@@ -1,0 +1,151 @@
+@media only screen 
+and (min-width : 375px) 
+and (max-width : 667px) { 
+    .picture {
+        margin-top: 0cm;
+        padding-top: 0cm;
+        border: 1px;
+        margin-left: 0cm;
+        padding-left: 0cm;
+    }
+
+    img {
+        max-width: 300px;
+        max-height: 400px;
+    }
+
+    body {
+        margin-right: 0cm;
+        padding-right: 0cm;
+       
+    }
+
+    article {
+        padding-left: 0cm;
+        margin-left: 0cm;
+        max-width: 300px;
+    }
+
+    .name, .description {
+        font-size: 20px;
+        max-width: 300px;
+    }
+
+    .description {
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+    .button {
+        font-size: 16px;
+    }
+
+    section {
+        padding-bottom: 20px;
+    }
+
+    #link2, #link3 {
+        font-size: 25px;
+    }
+
+    p, q {
+        font-size: 14px;
+        max-width: 300px;
+    }
+
+    .card, .grid {
+        max-width: 270px;
+        display: block;
+    }
+    
+    .section2 {
+        max-width: 300px;
+    }
+
+    header {
+        display: none;
+    }
+
+    .box {
+        display: block;
+        max-width: 290px;
+        padding-right: 0cm;
+        margin-right: 0cm;
+        
+    }
+
+    .socialicon {
+        font-size: 14px;
+    }
+
+    h1 {
+        margin-top: 0cm;
+        margin-right: 0cm;
+        background-color: white;
+    }
+
+    input {
+        display: block;
+        column 
+    }
+
+    footer {
+        box-sizing: border-box;
+	    width: 100%;
+        text-align: left;
+        padding-left: 0px;
+        padding-right: 0px;
+	    margin-top: 80px;
+    }
+
+    .ending {
+        text-align: left;
+        display: inline;
+        font-size: 14px;
+    }
+
+    ul {
+        padding-left: 0cm;
+        margin-left: 0cm;
+     }
+
+    .fieldset {
+        margin-left: 0cm;
+        padding-left: 0cm;
+    }
+
+    .frame {
+        max-width: 299px;
+        background-color: white;
+        padding-left: 0cm;
+        margin-left: 0cm;
+        padding-right: 0cm;
+    }
+
+   /* div, footer, body, .display, article {
+       padding-right: 0cm;
+       margin-right: 0cm;
+       padding-left: 0cm;
+   } */
+
+   .placeholder, #link4 {
+       display: none;
+   }
+
+   body {
+    margin-right: 0cm;
+    padding-right: 0cm;
+  }
+
+  textarea {
+      padding-right: 0cm;
+      margin-right: 0cm;
+  }
+
+  article, form, fieldset, div {
+    padding-top: 0cm;
+    margin-top: 0cm;
+    padding-right: 0cm;
+    margin-right: 0cm;
+  }
+}
