@@ -1,0 +1,292 @@
+* {
+    background-color: white;
+    font-family: 'Exo', sans-serif;
+
+}
+
+nav {
+    background-color: pink;
+    text-align: right;
+}
+
+header {
+    width: 99%;
+    position: fixed;
+    z-index: 100;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    margin-right: 20px;
+    background-color: pink;}
+    
+
+li {
+    list-style: none;
+    border: black;
+    display: inline;
+    background-color: pink;
+}
+
+div, ul, li, a, i {
+    background-color: pink;
+    
+}
+
+a {
+    text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+a:hover {
+   border-width: 3px;
+   color: yellow;
+}
+
+.display {
+    display: flex;
+    text-align: left;
+}
+
+.greeting {
+    box-sizing: border-box;
+    font-size: 6 0px;
+}
+
+.name {
+    box-sizing: border-box;  
+    font-size: 70px;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+article {
+    padding-top: 150px;
+    margin-left: 5%;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: black;
+}
+
+.picture {
+    padding-top: 200px;
+    border-style: none;
+    margin-left: 2%;
+}
+
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding-top: 15px;
+    margin-bottom: 15%;
+
+}
+
+.button {
+    border-color: steelblue;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    font-size: 20px;
+    flex-wrap: wrap;
+    margin-top: 15%;
+    border-radius: 5mm;
+    background-color: steelblue;
+    text-decoration: none;
+    color: black;
+    padding:5px;
+}
+
+.section2 {
+    text-align: center;
+}
+
+.quote {
+    background-color: pink;
+    padding: 10px;
+    margin: 10px;
+}
+
+i {
+    color: rebeccapurple;
+}
+
+q {
+    background-color: pink;
+    padding: 0px;
+    border-bottom: pink;
+    border-bottom-width: 10px;
+}
+
+strong {
+    background-color: pink; 
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: white;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    padding: 10px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 5mm;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+i {
+    background-color: white;
+    font-size: 100px;
+}
+
+.card:hover {
+    color:yellow;
+    border-color: yellow;
+}
+
+#marks {
+    background-color: pink;
+}
+
+#link2 {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+#link1 {
+    padding-top: 90px;
+    border-style: none;
+}
+
+#contact {
+    border-style: solid;
+    border-color: yellow;
+    background-color: yellow;
+    border-radius: 5mm;
+    background-origin: border-box;
+}
+
+#link3 {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.hover {
+    font-size: 35px;
+}
+
+#link4 {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 0cm;
+    padding-bottom: 0cm;
+    color: white;
+}
+
+
+.form {
+    width: 450px;
+    height: 1000px;
+	padding: 16px;
+    margin: auto;   
+}    
+
+form label{
+        width:72px;
+        font-weight:bold;
+        display:inline-block;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .one {
+    flex: 1;
+  }
+
+  .two {
+    flex: 1;
+  }
+
+  .three {
+      padding: 0cm;
+      display: block;
+      background-color: white;
+      line-height: 3.5;
+  }
+
+  .four {
+      padding-bottom: 0cm;
+      margin-bottom: 0cm;
+      margin-top: 0cm;
+      padding-top: 0cm;
+      background-color: white;
+  }
+
+  .socialicon {
+      background-color: white;
+      
+  }
+
+  .frame {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    border-radius: 1mm;
+    
+  }
+
+  fieldset {
+      border-style: none;
+      padding-left: 1px;
+      margin-left: 1px;
+
+  }
+
+  input[type=text], textarea, input[type=submit] {
+      border-radius: 2mm;
+  }
+
+  footer, .ending {
+    background-color: pink;
+    align-items: center;
+    padding-right: 0cm;
+    margin-right: 0cm;
+    justify-content: center;
+    padding-left: 3cm;
+    padding-top: 7px;
+    padding-bottom: 1cm;
+    
+  }
+
+#twitter, #linkedin, #github, #email {
+    background-color: pink;
+    border-radius: 50mm;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 8px;
+    align-items: center;
+    margin-right: 2cm;
+}
+
+.madewith {
+    background-color: pink;
+    text-align: center;
+    padding: 20px, 0px, 0px, 10px;
+    margin-top: 10px;
+}
